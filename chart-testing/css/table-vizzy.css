@@ -77,6 +77,7 @@
 
 body {
     background-color: var(--gray--lightest);
+    font-family: 'Inter', sans-serif;
 }
 
 .main {
@@ -96,7 +97,6 @@ body {
 }
 .chart-title {
     margin-top: 0px;
-    font-family: sans-serif;
     font-weight: 500;
     color: var(--text--primary);
     width: 100%;
