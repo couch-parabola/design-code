@@ -1,0 +1,241 @@
+
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- <link rel="shortcut icon" type="image/png" href="../nobo-ico.png"/> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <!-- <script src="../js/parabola-chart-builder.js"></script> -->
+    <link rel="stylesheet" href="../css/table-vizzy.css">
+    <!-- <script src="../js/patternomaly/dist/patternomaly.js"></script> -->
+    
+</head>
+<body> 
+    <div class="main">
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Average ABV by beer malt type</h3>
+            <canvas id="abvChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Average ABV/IBU by beer malt type</h3>
+            <canvas id="abvIbuChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Unique Viewers by date</h3>
+            <canvas id="barChart"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Unique Viewers by date, per page</h3>
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        Chart.defaults.elements.line.borderWidth = 3;
+        Chart.defaults.elements.point.pointRadius = 0;
+        Chart.defaults.elements.line.tension = 0.09;
+        Chart.defaults.plugins.legend.position = 'bottom';
+        // Chart.defaults.plugins.legend.align = 'start';
+        Chart.defaults.plugins.legend.labels.boxWidth = 12;
+        Chart.defaults.plugins.legend.labels.padding = 12;
+        Chart.defaults.color = '#153143';
+
+        let colorsEight = {
+            "c1":"rgba(20, 141, 240, 1)",
+            "c2":"rgba(160, 216, 254, 1)",
+            "c3":"rgba(3, 152, 175, 1)",
+            "c4":"rgba(173, 236, 245, 1)",
+            "c5":"rgba(136, 136, 247, 1)",
+            "c6":"rgba(206, 214, 255, 1)",
+            "c7":"rgba(230, 95, 214, 1)",
+            "c8":"rgba(250, 210, 254, 1)",
+        }
+
+        // line charts by date
+        let data = '../json/page traffic by date.json';
+        fetch(data).then(response => response.json()).then(data => { 
+
+            let homepage = data.filter(({Page}) => Page == '/');
+            let shopify = data.filter(({Page}) => Page == '/shopify');
+            let pricing = data.filter(({Page}) => Page == '/pricing');
+            let careers = data.filter(({Page}) => Page == '/careers');
+            let api = data.filter(({Page}) => Page == '/integration/api');
+            let integrations = data.filter(({Page}) => Page == '/integrations');
+            let updates = data.filter(({Page}) => Page == '/updates');
+            let productOverview = data.filter(({Page}) => Page == '/product-overview/introduction-to-parabola');
+            let salesReporting = data.filter(({Page}) => Page == '/use-case/sales-reporting');
+
+            let labels = homepage.map(a => a.Date);
+            let y1 = shopify.map(a => a['Unique Pageviews']);
+            let y2 = pricing.map(a => a['Unique Pageviews']);
+            let y3 = careers.map(a => a['Unique Pageviews']);
+            let y4 = api.map(a => a['Unique Pageviews']);
+            let y5 = integrations.map(a => a['Unique Pageviews']);
+            let y6 = updates.map(a => a['Unique Pageviews']);
+            let y7 = productOverview.map(a => a['Unique Pageviews']);
+            let y8 = salesReporting.map(a => a['Unique Pageviews']);
+
+            let dataSetsEight = [
+                {
+                    label: 'Shopify',
+                    data: y1,
+                    stack: 1,
+                    borderColor: colorsEight.c1,
+                    backgroundColor: colorsEight.c1,
+                },
+                {
+                    label: 'Pricing',
+                    data: y2,
+                    stack: 1,
+                    borderColor: colorsEight.c2,
+                    backgroundColor: colorsEight.c2,
+                },
+                {
+                    label: 'Careers',
+                    data: y3,
+                    stack: 1,
+                    borderColor: colorsEight.c3,
+                    backgroundColor: colorsEight.c3,
+                },
+                {
+                    label: 'API',
+                    data: y4,
+                    stack: 1,
+                    borderColor: colorsEight.c4,
+                    backgroundColor: colorsEight.c4,
+                },
+                {
+                    label: 'Integrations',
+                    data: y5,
+                    stack: 1,
+                    borderColor: colorsEight.c5,
+                    backgroundColor: colorsEight.c5,
+                },
+                {
+                    label: 'Updates',
+                    data: y6,
+                    stack: 1,
+                    borderColor: colorsEight.c6,
+                    backgroundColor: colorsEight.c6,
+                },
+                {
+                    label: 'Product Overview',
+                    data: y7,
+                    stack: 1,
+                    borderColor: colorsEight.c7,
+                    backgroundColor: colorsEight.c7,
+                },
+                {
+                    label: 'Sales Reporting',
+                    data: y8,
+                    stack: 1,
+                    borderColor: colorsEight.c8,
+                    backgroundColor: colorsEight.c8,
+                }
+        ]
+            
+            // complex line chart with categories 
+            const ctx = document.getElementById('lineChart');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: dataSetsEight
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true
+                    }
+                }
+                }
+            }); 
+
+            // complex stacked bar chart with categories
+            const barCtx = document.getElementById('barChart');
+            new Chart(barCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: dataSetsEight
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true,
+                    stacked: true
+                    }
+                }
+                }
+            }); 
+
+        });
+
+        // simple column charts for beer data
+        let beerData = '../json/beer stats by malt type.json';
+        fetch(beerData).then(response => response.json()).then(beerData => { 
+
+            let labels = beerData.map(a => a['ingredients malt name']);
+            let y1 = beerData.map(a => a.abv);
+            let y2 = beerData.map(a => a.ibu);
+
+            let beerStatsTwo = [
+                {
+                    label: 'ABV',
+                    data: y1,
+                    borderColor: colorsEight.c1,
+                    backgroundColor: colorsEight.c1,
+                },
+                {
+                    label: 'IBU',
+                    data: y2,
+                    borderColor: colorsEight.c2,
+                    backgroundColor: colorsEight.c2,
+                },
+                
+            ]
+
+             // simple bar chart
+             const abv = document.getElementById('abvChart');
+            new Chart(abv, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'ABV',
+                        data: y1,
+                        borderColor: colorsEight.c1,
+                        backgroundColor: colorsEight.c1,
+                    }]
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true,
+                    }
+                }
+                }
+            });
+            
+            // simple chart with two series
+            const abvibu = document.getElementById('abvIbuChart');
+            new Chart(abvibu, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: beerStatsTwo
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true,
+                    }
+                }
+                }
+            }); 
+        });
+    </script>
+
+</body>
+
+    

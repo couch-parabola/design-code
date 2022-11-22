@@ -1,0 +1,103 @@
+/* Color styles */
+:root {
+--text--primary: rgba(21, 49, 67, 1);
+--text--secondary: rgba(100, 121, 136, 1);
+--text--placeholder: rgba(120, 147, 165, 1);     /* NEW */
+--text--white: rgba(255, 255, 255, 1);
+
+--gray--darkest: rgba(10, 33, 48, 1);
+--gray--darker: rgba(21, 49, 67, 1);
+--gray--dark: rgba(42, 66, 83, 1);
+--gray--dark--hover: rgba(50, 77, 96, 1);
+--gray--rich: rgba(93, 116, 131, 1);
+--gray--rich--hover: rgba(100, 121, 136, 1);
+--gray--rich-light: rgba(120, 147, 165, 1);
+--gray--mid: rgba(177, 194, 205, 1);
+--gray--light: rgba(213, 224, 232, 1);
+--gray--lighter: rgba(237, 241, 247, 1);
+--gray--lightest: rgba(244, 248, 251, 1);
+--gray--lightest--hover: rgba(250, 252, 253, 1);
+--gray--white: rgba(255, 255, 255, 1);
+
+--blue--darkest: rgba(0, 38, 89, 1);             /* MODIFIED */
+--blue--darker: rgba(0, 60, 138, 1);
+--blue--dark: rgba(0, 79, 181, 1);
+--blue--rich: rgba(0, 99, 227, 1);
+--blue--rich--hover: rgba(23, 111, 227, 1);
+--blue--rich-light: rgba(20, 141, 240, 1);       /* NEW */
+--blue--mid--parabola-blue: rgba(66, 178, 253, 1);
+--blue--light--parabola-blue: rgba(160, 216, 254, 1);
+--blue--lighter: rgba(219, 240, 255, 1);
+--blue--lightest: rgba(240, 249, 255, 1);
+--blue--lightest--hover: rgba(245, 251, 255, 1);
+
+--teal--darkest: rgba(0, 52, 59, 1);             /* this whole color stack is modified */
+--teal--darker: rgba(3, 75, 86, 1);
+--teal--dark: rgba(3, 103, 118, 1);
+--teal--rich: rgba(0, 122, 141, 1);
+--teal--rich--hover: rgba(16, 130, 147, 1);
+--teal--rich-light: rgba(3, 152, 175, 1);        /* NEW */
+--teal--mid: rgba(118, 214, 228, 1);
+--teal--light: rgba(173, 236, 245, 1);
+--teal--lighter: rgba(220, 250, 254, 1);
+--teal--lightest: rgba(243, 253, 255, 1);
+--teal--lightest--hover: rgba(240, 253, 255, 1);
+
+--purple--darkest: rgba(27, 18, 121, 1);
+--purple--darker: rgba(41, 30, 170, 1);
+--purple--dark: rgba(62, 47, 217, 1);
+--purple--rich: rgba(72, 72, 221, 1);
+--purple--rich--hover: rgba(82, 82, 235, 1);
+--purple--rich-light: rgba(136, 136, 247, 1);
+--purple--mid: rgba(177, 177, 252, 1);
+--purple--light: rgba(206, 214, 255, 1);
+--purple--lighter: rgba(225, 229, 255, 1);       /* NEW */
+--purple--lightest: rgba(239, 241, 255, 1);
+--purple--lightest--hover: rgba(245, 247, 255, 1);
+
+--pink--dark: rgba(151, 31, 129, 1);
+--pink--rich: rgba(194, 44, 166, 1);
+--pink--rich--hover: rgba(204, 49, 176, 1);
+--pink--rich-light: rgba(230, 95, 214, 1);
+--pink--mid: rgba(251, 147, 238, 1);             /* MODIFIED */
+--pink--light: rgba(250, 210, 254, 1);           /* MODIFIED */
+--pink--lighter: rgba(253, 233, 255, 1);         /* NEW */
+--pink--lightest: rgba(254, 242, 255, 1);        /* NEW, replace instances of $pink-light with this */
+--pink--lightest--hover: rgba(254, 249, 255, 1); /* NEW, replace instances of $pink-light-hover with this */
+
+--gold--rich: rgba(178, 84, 0, 1);
+--gold--rich--hover: rgba(186, 88, 0, 1);
+--gold--rich-light: rgba(218, 125, 11, 1);
+--gold--mid: rgba(255, 195, 43, 1);
+--gold--light: rgba(255, 223, 140, 1);
+--gold--lighter: rgba(255, 232, 193, 1);          /* NEW */
+--gold--lightest: rgba(255, 245, 235, 1);
+--gold--lightest--hover: rgba(255, 251, 247, 1);
+}
+
+body {
+    background-color: var(--gray--lightest);
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+.chart-wrapper {
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 6px 6px 0 rgba(42, 66, 83, .12);
+    padding: 36px;
+    /* max-height: 543px; */
+}
+.chart-title {
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}

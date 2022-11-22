@@ -1,0 +1,272 @@
+[
+  {
+    "ingredients malt name": "Acidulated Malt",
+    "abv": 5.8,
+    "ibu": 45
+  },
+  {
+    "ingredients malt name": "Acidulated Malt for kettle souring",
+    "abv": 3.9,
+    "ibu": 8
+  },
+  {
+    "ingredients malt name": "Amber",
+    "abv": 7.3,
+    "ibu": 48
+  },
+  {
+    "ingredients malt name": "Black Malt",
+    "abv": 7.5,
+    "ibu": 68
+  },
+  {
+    "ingredients malt name": "Black Patent",
+    "abv": 15,
+    "ibu": 80
+  },
+  {
+    "ingredients malt name": "Brown",
+    "abv": 10.9,
+    "ibu": 64
+  },
+  {
+    "ingredients malt name": "CaraAroma",
+    "abv": 18.3,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Carafa Special Malt Type 1",
+    "abv": 9.4,
+    "ibu": 74
+  },
+  {
+    "ingredients malt name": "Carafa Special Malt Type 3",
+    "abv": 9.2,
+    "ibu": 54
+  },
+  {
+    "ingredients malt name": "Caramalt",
+    "abv": 7.7,
+    "ibu": 61
+  },
+  {
+    "ingredients malt name": "Caramunich",
+    "abv": 18.3,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Chocolate",
+    "abv": 9.6,
+    "ibu": 59
+  },
+  {
+    "ingredients malt name": "Crystal",
+    "abv": 12.3,
+    "ibu": 47
+  },
+  {
+    "ingredients malt name": "Crystal 120",
+    "abv": 4.3,
+    "ibu": 40
+  },
+  {
+    "ingredients malt name": "Crystal 150",
+    "abv": 7.6,
+    "ibu": 73
+  },
+  {
+    "ingredients malt name": "Dark Crystal",
+    "abv": 7.7,
+    "ibu": 57
+  },
+  {
+    "ingredients malt name": "Dark Crystal 350",
+    "abv": 15,
+    "ibu": 80
+  },
+  {
+    "ingredients malt name": "Dark Crystal 350-400",
+    "abv": 8,
+    "ibu": 55
+  },
+  {
+    "ingredients malt name": "Dextrin Malt",
+    "abv": 4.4,
+    "ibu": 35
+  },
+  {
+    "ingredients malt name": "Dextrose",
+    "abv": 8,
+    "ibu": 35
+  },
+  {
+    "ingredients malt name": "Extra Pale",
+    "abv": 8.3,
+    "ibu": 55
+  },
+  {
+    "ingredients malt name": "Extra Pale - Spring Blend",
+    "abv": 8.7,
+    "ibu": 65
+  },
+  {
+    "ingredients malt name": "Flaked Oats",
+    "abv": 9.4,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Ginger Root",
+    "abv": 6.7,
+    "ibu": 40
+  },
+  {
+    "ingredients malt name": "Honey",
+    "abv": 15,
+    "ibu": 90
+  },
+  {
+    "ingredients malt name": "Lager Malt",
+    "abv": 7.2,
+    "ibu": 59
+  },
+  {
+    "ingredients malt name": "Maris Otter",
+    "abv": 4,
+    "ibu": 40
+  },
+  {
+    "ingredients malt name": "Maris Otter Extra Pale",
+    "abv": 7.1,
+    "ibu": 52
+  },
+  {
+    "ingredients malt name": "Munich",
+    "abv": 7.2,
+    "ibu": 51
+  },
+  {
+    "ingredients malt name": "Organic Caramalt",
+    "abv": 4.9,
+    "ibu": 32
+  },
+  {
+    "ingredients malt name": "Organic Chocolate",
+    "abv": 4.9,
+    "ibu": 32
+  },
+  {
+    "ingredients malt name": "Organic Lager",
+    "abv": 4.9,
+    "ibu": 32
+  },
+  {
+    "ingredients malt name": "Organic Munich",
+    "abv": 4.9,
+    "ibu": 32
+  },
+  {
+    "ingredients malt name": "Pale Ale",
+    "abv": 8.1,
+    "ibu": 70
+  },
+  {
+    "ingredients malt name": "Pale Ale - Tipple",
+    "abv": 12.4,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Pale Chocolate",
+    "abv": 10,
+    "ibu": 35
+  },
+  {
+    "ingredients malt name": "Pale Crystal",
+    "abv": 8.5,
+    "ibu": 29
+  },
+  {
+    "ingredients malt name": "Peated Malt",
+    "abv": 12.5,
+    "ibu": 30
+  },
+  {
+    "ingredients malt name": "Pilsner",
+    "abv": 4,
+    "ibu": 22
+  },
+  {
+    "ingredients malt name": "Popcorn",
+    "abv": 12.8,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Propino Pale Malt",
+    "abv": 3.9,
+    "ibu": 8
+  },
+  {
+    "ingredients malt name": "Propino Pale Malt for kettle souring",
+    "abv": 3.9,
+    "ibu": 8
+  },
+  {
+    "ingredients malt name": "Roasted Barley",
+    "abv": 8.8,
+    "ibu": 67
+  },
+  {
+    "ingredients malt name": "Rye",
+    "abv": 7.6,
+    "ibu": 51
+  },
+  {
+    "ingredients malt name": "Smoked Malt",
+    "abv": 9.6,
+    "ibu": 32
+  },
+  {
+    "ingredients malt name": "Smoked Peaty",
+    "abv": 10.4,
+    "ibu": 65
+  },
+  {
+    "ingredients malt name": "Smoked Warminster",
+    "abv": 8.4,
+    "ibu": 50
+  },
+  {
+    "ingredients malt name": "Smoked Weyermann",
+    "abv": 7.3,
+    "ibu": 30
+  },
+  {
+    "ingredients malt name": "Special W",
+    "abv": 7.5,
+    "ibu": 45
+  },
+  {
+    "ingredients malt name": "Torrified Wheat",
+    "abv": 4.1,
+    "ibu": 25
+  },
+  {
+    "ingredients malt name": "Weyermann Beech Smoked",
+    "abv": 4.9,
+    "ibu": 35
+  },
+  {
+    "ingredients malt name": "Weyermann Smoked",
+    "abv": 10,
+    "ibu": 85
+  },
+  {
+    "ingredients malt name": "Wheat",
+    "abv": 7.5,
+    "ibu": 48
+  },
+  {
+    "ingredients malt name": "Wheat Malt",
+    "abv": 7.2,
+    "ibu": 31
+  }
+]
