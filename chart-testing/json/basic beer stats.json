@@ -1,0 +1,877 @@
+[
+  {
+    "name": "Buzz",
+    "abv": 4.5,
+    "ibu": 60,
+    "ebc": 20,
+    "srm": 10
+  },
+  {
+    "name": "Trashy Blonde",
+    "abv": 4.1,
+    "ibu": 41.5,
+    "ebc": 15,
+    "srm": 15
+  },
+  {
+    "name": "Berliner Weisse With Yuzu - B-Sides",
+    "abv": 4.2,
+    "ibu": 8,
+    "ebc": 8,
+    "srm": 4
+  },
+  {
+    "name": "Pilsen Lager",
+    "abv": 6.3,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Avery Brown Dredge",
+    "abv": 7.2,
+    "ibu": 59,
+    "ebc": 10,
+    "srm": 5
+  },
+  {
+    "name": "Electric India",
+    "abv": 5.2,
+    "ibu": 38,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "AB:12",
+    "abv": 11.2,
+    "ibu": 35,
+    "ebc": 80,
+    "srm": 40
+  },
+  {
+    "name": "Fake Lager",
+    "abv": 4.7,
+    "ibu": 40,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "AB:07",
+    "abv": 12.5,
+    "ibu": 30,
+    "ebc": 84,
+    "srm": 42
+  },
+  {
+    "name": "Bramling X",
+    "abv": 7.5,
+    "ibu": 75,
+    "ebc": 22,
+    "srm": 11
+  },
+  {
+    "name": "Misspent Youth",
+    "abv": 7.3,
+    "ibu": 30,
+    "ebc": 120,
+    "srm": 60
+  },
+  {
+    "name": "Arcade Nation",
+    "abv": 5.3,
+    "ibu": 60,
+    "ebc": 200,
+    "srm": 100
+  },
+  {
+    "name": "Movember",
+    "abv": 4.5,
+    "ibu": 50,
+    "ebc": 140,
+    "srm": 70
+  },
+  {
+    "name": "Alpha Dog",
+    "abv": 4.5,
+    "ibu": 42,
+    "ebc": 62,
+    "srm": 31
+  },
+  {
+    "name": "Mixtape 8",
+    "abv": 14.5,
+    "ibu": 50,
+    "ebc": 40,
+    "srm": 20
+  },
+  {
+    "name": "Libertine Porter",
+    "abv": 6.1,
+    "ibu": 45,
+    "ebc": 219,
+    "srm": 109.5
+  },
+  {
+    "name": "AB:06",
+    "abv": 11.2,
+    "ibu": 150,
+    "ebc": 70,
+    "srm": 35
+  },
+  {
+    "name": "Russian Doll – India Pale Ale",
+    "abv": 6,
+    "ibu": 70,
+    "ebc": 25,
+    "srm": 12.5
+  },
+  {
+    "name": "Hello My Name Is Mette-Marit",
+    "abv": 8.2,
+    "ibu": 70,
+    "ebc": "",
+    "srm": ""
+  },
+  {
+    "name": "Rabiator",
+    "abv": 10.27,
+    "ibu": 26,
+    "ebc": 24,
+    "srm": 12
+  },
+  {
+    "name": "Vice Bier",
+    "abv": 4.3,
+    "ibu": 25,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Devine Rebel (w/ Mikkeller)",
+    "abv": 12.5,
+    "ibu": 100,
+    "ebc": 36,
+    "srm": 18
+  },
+  {
+    "name": "Storm",
+    "abv": 8,
+    "ibu": 60,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "The End Of History",
+    "abv": 55,
+    "ibu": "",
+    "ebc": "",
+    "srm": ""
+  },
+  {
+    "name": "Bad Pixie",
+    "abv": 4.7,
+    "ibu": 45,
+    "ebc": 8,
+    "srm": 4
+  },
+  {
+    "name": "Skull Candy",
+    "abv": 3.5,
+    "ibu": 33,
+    "ebc": 50,
+    "srm": 25
+  },
+  {
+    "name": "Dog B",
+    "abv": 15,
+    "ibu": 90,
+    "ebc": 100,
+    "srm": 50
+  },
+  {
+    "name": "HBC 369",
+    "abv": 6.7,
+    "ibu": 67,
+    "ebc": 19,
+    "srm": 9.5
+  },
+  {
+    "name": "10 Heads High",
+    "abv": 7.8,
+    "ibu": 70,
+    "ebc": 90,
+    "srm": 45
+  },
+  {
+    "name": "Dana - IPA Is Dead",
+    "abv": 6.7,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Nanny State",
+    "abv": 0.5,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "AB:05",
+    "abv": 12.5,
+    "ibu": 40,
+    "ebc": 180,
+    "srm": 90
+  },
+  {
+    "name": "Sorachi Ace",
+    "abv": 7.5,
+    "ibu": 75,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Bourbon Baby",
+    "abv": 5.8,
+    "ibu": 35,
+    "ebc": 44,
+    "srm": 22
+  },
+  {
+    "name": "Berliner Weisse With Raspberries And Rhubarb - B-Sides",
+    "abv": 3.6,
+    "ibu": 8,
+    "ebc": "",
+    "srm": ""
+  },
+  {
+    "name": "Shipwrecker Circus (w/ Oskar Blues)",
+    "abv": 10.5,
+    "ibu": 85,
+    "ebc": 64,
+    "srm": 32
+  },
+  {
+    "name": "Zephyr",
+    "abv": 12.5,
+    "ibu": 125,
+    "ebc": 40,
+    "srm": 20
+  },
+  {
+    "name": "Belgian Trappist",
+    "abv": 6.3,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Kohatu - IPA Is Dead",
+    "abv": 7.2,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Hello My Name is Vladimir",
+    "abv": 8.2,
+    "ibu": 70,
+    "ebc": 16,
+    "srm": 8
+  },
+  {
+    "name": "AB:17",
+    "abv": 10.7,
+    "ibu": 100,
+    "ebc": 300,
+    "srm": 150
+  },
+  {
+    "name": "Hardcore IPA",
+    "abv": 9.2,
+    "ibu": 125,
+    "ebc": 40,
+    "srm": 20
+  },
+  {
+    "name": "American Wheat",
+    "abv": 4.5,
+    "ibu": 17,
+    "ebc": 10,
+    "srm": 5
+  },
+  {
+    "name": "Dog Wired (w/8 Wired)",
+    "abv": 7.1,
+    "ibu": 65,
+    "ebc": 13,
+    "srm": 6.5
+  },
+  {
+    "name": "The Physics",
+    "abv": 5,
+    "ibu": 47,
+    "ebc": 65,
+    "srm": 32.5
+  },
+  {
+    "name": "Anarchist Alchemist",
+    "abv": 16.5,
+    "ibu": 20.5,
+    "ebc": 20,
+    "srm": 10
+  },
+  {
+    "name": "AB:15",
+    "abv": 12.8,
+    "ibu": 50,
+    "ebc": 111,
+    "srm": 55.5
+  },
+  {
+    "name": "Goldings - IPA Is Dead",
+    "abv": 6.7,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "AB:14",
+    "abv": 10,
+    "ibu": 30,
+    "ebc": 20,
+    "srm": 10
+  },
+  {
+    "name": "Lost Dog (w/Lost Abbey)",
+    "abv": 10,
+    "ibu": 35,
+    "ebc": 80,
+    "srm": 40
+  },
+  {
+    "name": "TM10",
+    "abv": 5.5,
+    "ibu": 20,
+    "ebc": 14,
+    "srm": 7
+  },
+  {
+    "name": "Paradox Islay",
+    "abv": 10,
+    "ibu": 55,
+    "ebc": 300,
+    "srm": 152
+  },
+  {
+    "name": "Baby Dogma",
+    "abv": 4.5,
+    "ibu": 35,
+    "ebc": 40,
+    "srm": 20
+  },
+  {
+    "name": "Albino Squid Assasin",
+    "abv": 7.4,
+    "ibu": 65,
+    "ebc": 60,
+    "srm": 30
+  },
+  {
+    "name": "Amarillo - IPA Is Dead",
+    "abv": 7.2,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Black Eyed King Imp",
+    "abv": 9.5,
+    "ibu": 85,
+    "ebc": 250,
+    "srm": 125
+  },
+  {
+    "name": "Prototype 27",
+    "abv": 9.2,
+    "ibu": 149,
+    "ebc": 19.5,
+    "srm": 9.8
+  },
+  {
+    "name": "Coffee Imperial Stout",
+    "abv": 9,
+    "ibu": 65,
+    "ebc": 97,
+    "srm": 49
+  },
+  {
+    "name": "Mandarina Bavaria - IPA Is Dead",
+    "abv": 7.2,
+    "ibu": 100,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "Dogma",
+    "abv": 7.5,
+    "ibu": 30,
+    "ebc": 46,
+    "srm": 23
+  },
+  {
+    "name": "Magic Stone Dog (w/Magic Rock & Stone Brewing Co.)",
+    "abv": 4.6,
+    "ibu": 30,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "AB:08",
+    "abv": 10.43,
+    "ibu": 65,
+    "ebc": 23,
+    "srm": 11.5
+  },
+  {
+    "name": "Sunk Punk",
+    "abv": 7.1,
+    "ibu": 68,
+    "ebc": 14,
+    "srm": 7
+  },
+  {
+    "name": "Sub Hop",
+    "abv": 8,
+    "ibu": 35,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "Bracken's Porter",
+    "abv": 5,
+    "ibu": 50,
+    "ebc": 110,
+    "srm": 55
+  },
+  {
+    "name": "Tokyo Rising Sun - Lowland",
+    "abv": 13.2,
+    "ibu": 85,
+    "ebc": 140,
+    "srm": 71
+  },
+  {
+    "name": "Hunter Foundation Pale Ale",
+    "abv": 5.4,
+    "ibu": 35,
+    "ebc": 11.5,
+    "srm": 5.75
+  },
+  {
+    "name": "Hype",
+    "abv": 4.1,
+    "ibu": 65,
+    "ebc": 17,
+    "srm": 8.5
+  },
+  {
+    "name": "AB:16",
+    "abv": 10.6,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Sunmaid Stout",
+    "abv": 10.2,
+    "ibu": 50,
+    "ebc": 197,
+    "srm": 100
+  },
+  {
+    "name": "Pale - Russian Doll",
+    "abv": 4,
+    "ibu": 35,
+    "ebc": 45,
+    "srm": 22.5
+  },
+  {
+    "name": "Whisky Sour - B-Sides",
+    "abv": 7,
+    "ibu": 20,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "Black Eyed King Imp - Vietnamese Coffee Edition",
+    "abv": 12.7,
+    "ibu": 85,
+    "ebc": 250,
+    "srm": 125
+  },
+  {
+    "name": "Eurotrash",
+    "abv": 4.1,
+    "ibu": 52,
+    "ebc": 17,
+    "srm": 8.5
+  },
+  {
+    "name": "Never Mind The Anabolics",
+    "abv": 6.5,
+    "ibu": 35,
+    "ebc": 23,
+    "srm": 11.5
+  },
+  {
+    "name": "#Mashtag 2013",
+    "abv": 7.5,
+    "ibu": 50,
+    "ebc": 40,
+    "srm": 20
+  },
+  {
+    "name": "Hobo Pop",
+    "abv": 4.2,
+    "ibu": 50,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "AB:18",
+    "abv": 11.8,
+    "ibu": 80,
+    "ebc": 115,
+    "srm": 57.5
+  },
+  {
+    "name": "Hops Kill Nazis",
+    "abv": 7.6,
+    "ibu": 70,
+    "ebc": 59,
+    "srm": 29.5
+  },
+  {
+    "name": "AB:04",
+    "abv": 15,
+    "ibu": 80,
+    "ebc": 400,
+    "srm": 200
+  },
+  {
+    "name": "India Session Lager - Prototype Challenge",
+    "abv": 4.4,
+    "ibu": 35,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "Hopped-Up Brown Ale - Prototype Challenge",
+    "abv": 6.3,
+    "ibu": 85,
+    "ebc": 24,
+    "srm": 12
+  },
+  {
+    "name": "Comet",
+    "abv": 7.2,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Baby Saison - B-Sides",
+    "abv": 3.6,
+    "ibu": 9,
+    "ebc": 2,
+    "srm": 1
+  },
+  {
+    "name": "Santa Paws",
+    "abv": 4.5,
+    "ibu": 35,
+    "ebc": 44,
+    "srm": 22
+  },
+  {
+    "name": "Original Dogma (Née Speedball)",
+    "abv": 7.8,
+    "ibu": 60,
+    "ebc": 31,
+    "srm": 15.5
+  },
+  {
+    "name": "Alpha Pop",
+    "abv": 4.5,
+    "ibu": 30,
+    "ebc": 25,
+    "srm": 12.5
+  },
+  {
+    "name": "Bavarian Weizen",
+    "abv": 6.3,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Citra",
+    "abv": 7.5,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "#Mashtag 2015",
+    "abv": 10,
+    "ibu": 85,
+    "ebc": 130,
+    "srm": 65
+  },
+  {
+    "name": "Dead Pony Club",
+    "abv": 3.8,
+    "ibu": 35,
+    "ebc": 25,
+    "srm": 12.7
+  },
+  {
+    "name": "AB:09",
+    "abv": 11.6,
+    "ibu": 77,
+    "ebc": 265,
+    "srm": 132.5
+  },
+  {
+    "name": "Mango Gose - B-Sides",
+    "abv": 6.4,
+    "ibu": 40,
+    "ebc": 10,
+    "srm": 5
+  },
+  {
+    "name": "Everday Anarchy",
+    "abv": 10.5,
+    "ibu": 45,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "Peroxide Punk",
+    "abv": 4,
+    "ibu": 40,
+    "ebc": 18,
+    "srm": 9
+  },
+  {
+    "name": "Lumberjack Stout",
+    "abv": 15.2,
+    "ibu": 20,
+    "ebc": 158,
+    "srm": 79
+  },
+  {
+    "name": "Bowman's Beard - B-Sides",
+    "abv": 18.3,
+    "ibu": 50,
+    "ebc": 15,
+    "srm": 8
+  },
+  {
+    "name": "Pumpkin King",
+    "abv": 5.4,
+    "ibu": 20,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Hello My Name Is Päivi",
+    "abv": 8.3,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Elvis Juice V2.0 - Prototype Challenge",
+    "abv": 6.5,
+    "ibu": 60,
+    "ebc": 25,
+    "srm": 12.5
+  },
+  {
+    "name": "Riptide",
+    "abv": 8,
+    "ibu": 45,
+    "ebc": 240,
+    "srm": 120
+  },
+  {
+    "name": "Peach Therapy",
+    "abv": 9,
+    "ibu": 30,
+    "ebc": 12,
+    "srm": 6
+  },
+  {
+    "name": "Clown King",
+    "abv": 12,
+    "ibu": 85,
+    "ebc": 24,
+    "srm": 12
+  },
+  {
+    "name": "India Pale Weizen (w/ Weihenstephan)",
+    "abv": 6.2,
+    "ibu": 50,
+    "ebc": 35,
+    "srm": 17.5
+  },
+  {
+    "name": "Hello My Name Is Beastie",
+    "abv": 8.2,
+    "ibu": 42,
+    "ebc": 90,
+    "srm": 45
+  },
+  {
+    "name": "Punk IPA 2010 - Current",
+    "abv": 5.6,
+    "ibu": 40,
+    "ebc": 15,
+    "srm": 7.6
+  },
+  {
+    "name": "HBC 366 - IPA Is Dead",
+    "abv": 7.2,
+    "ibu": 70,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "American Ale",
+    "abv": 6.3,
+    "ibu": 55,
+    "ebc": 30,
+    "srm": 15
+  },
+  {
+    "name": "Cocoa Psycho",
+    "abv": 10,
+    "ibu": 85,
+    "ebc": 30,
+    "srm": 15.25
+  },
+  {
+    "name": "Truffle and Chocolate Stout - B-Sides",
+    "abv": 5.6,
+    "ibu": 30,
+    "ebc": 54,
+    "srm": 27
+  },
+  {
+    "name": "Vagabond Pilsner",
+    "abv": 4.5,
+    "ibu": 55,
+    "ebc": 25,
+    "srm": 12.5
+  },
+  {
+    "name": "Vote Sepp",
+    "abv": 3.6,
+    "ibu": 20,
+    "ebc": 8,
+    "srm": 4
+  },
+  {
+    "name": "Hello My Name Is Ingrid",
+    "abv": 8.2,
+    "ibu": 42,
+    "ebc": 70,
+    "srm": 35
+  },
+  {
+    "name": "U-Boat (w/ Victory Brewing)",
+    "abv": 8.4,
+    "ibu": 50,
+    "ebc": 200,
+    "srm": 100
+  },
+  {
+    "name": "Melon And Cucumber IPA - B-Sides",
+    "abv": 6,
+    "ibu": 50,
+    "ebc": 8,
+    "srm": 4
+  },
+  {
+    "name": "Morag's Mojito - B-Sides",
+    "abv": 6.7,
+    "ibu": 40,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "Hop Rocker",
+    "abv": 5.5,
+    "ibu": 40,
+    "ebc": 25,
+    "srm": 12
+  },
+  {
+    "name": "Bounty Hunter - Shareholder Brew",
+    "abv": 6.5,
+    "ibu": 35,
+    "ebc": 250,
+    "srm": 125
+  },
+  {
+    "name": "Zeitgeist",
+    "abv": 4.9,
+    "ibu": 32,
+    "ebc": 120,
+    "srm": 60
+  },
+  {
+    "name": "AB:10",
+    "abv": 11.5,
+    "ibu": 80,
+    "ebc": 115,
+    "srm": 57.5
+  },
+  {
+    "name": "Punk Monk",
+    "abv": 6,
+    "ibu": 60,
+    "ebc": 17,
+    "srm": 8.5
+  },
+  {
+    "name": "Dog Fight (w/ Flying Dog)",
+    "abv": 8.5,
+    "ibu": 65,
+    "ebc": 31.2,
+    "srm": 15.6
+  },
+  {
+    "name": "Candy Kaiser",
+    "abv": 5.2,
+    "ibu": 45,
+    "ebc": 45,
+    "srm": 22.5
+  },
+  {
+    "name": "Chaos Theory",
+    "abv": 7.1,
+    "ibu": 90,
+    "ebc": 15,
+    "srm": 7.5
+  },
+  {
+    "name": "Juniper Wheat Beer",
+    "abv": 5,
+    "ibu": 40,
+    "ebc": 15,
+    "srm": 7.5
+  }
+]

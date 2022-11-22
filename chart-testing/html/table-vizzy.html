@@ -22,11 +22,25 @@
         </div>
         <div class="chart-wrapper">
             <h3 class="chart-title">Unique Viewers by date</h3>
+            <canvas id="barChartWeeks"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Unique Viewers by date</h3>
             <canvas id="barChart"></canvas>
         </div>
         <div class="chart-wrapper">
             <h3 class="chart-title">Unique Viewers by date, per page</h3>
+            <canvas id="lineChartWeeks"></canvas>
+        </div>
+        <div class="chart-wrapper">
+            <h3 class="chart-title">Unique Viewers by date, per page</h3>
             <canvas id="lineChart"></canvas>
+        </div>
+        <div class="chart-wrapper scrollable">
+            <h3 class="chart-title">Unique Viewers by date, per page</h3>
+            <div class="chart-inner">
+                <canvas id="simpleBeer" width="600" height="2400"></canvas>
+            </div>
         </div>
     </div>
 
@@ -171,6 +185,126 @@
 
         });
 
+        // line charts by week
+        let weeksData = '../json/page traffic by week.json';
+        fetch(weeksData).then(response => response.json()).then(weeksData => { 
+
+            let homepage = weeksData.filter(({Page}) => Page == '/');
+            let shopify = weeksData.filter(({Page}) => Page == '/shopify');
+            let pricing = weeksData.filter(({Page}) => Page == '/pricing');
+            let careers = weeksData.filter(({Page}) => Page == '/careers');
+            let api = weeksData.filter(({Page}) => Page == '/integration/api');
+            let integrations = weeksData.filter(({Page}) => Page == '/integrations');
+            let updates = weeksData.filter(({Page}) => Page == '/updates');
+            let productOverview = weeksData.filter(({Page}) => Page == '/product-overview/introduction-to-parabola');
+            let salesReporting = weeksData.filter(({Page}) => Page == '/use-case/sales-reporting');
+
+            let labels = homepage.map(a => a['Week of the Year']);
+            let y1 = shopify.map(a => a['Unique Pageviews']);
+            let y2 = pricing.map(a => a['Unique Pageviews']);
+            let y3 = careers.map(a => a['Unique Pageviews']);
+            let y4 = api.map(a => a['Unique Pageviews']);
+            let y5 = integrations.map(a => a['Unique Pageviews']);
+            let y6 = updates.map(a => a['Unique Pageviews']);
+            let y7 = productOverview.map(a => a['Unique Pageviews']);
+            let y8 = salesReporting.map(a => a['Unique Pageviews']);
+
+            let dataSetsEight = [
+                {
+                    label: 'Shopify',
+                    data: y1,
+                    stack: 1,
+                    borderColor: colorsEight.c1,
+                    backgroundColor: colorsEight.c1,
+                },
+                {
+                    label: 'Pricing',
+                    data: y2,
+                    stack: 1,
+                    borderColor: colorsEight.c2,
+                    backgroundColor: colorsEight.c2,
+                },
+                {
+                    label: 'Careers',
+                    data: y3,
+                    stack: 1,
+                    borderColor: colorsEight.c3,
+                    backgroundColor: colorsEight.c3,
+                },
+                {
+                    label: 'API',
+                    data: y4,
+                    stack: 1,
+                    borderColor: colorsEight.c4,
+                    backgroundColor: colorsEight.c4,
+                },
+                {
+                    label: 'Integrations',
+                    data: y5,
+                    stack: 1,
+                    borderColor: colorsEight.c5,
+                    backgroundColor: colorsEight.c5,
+                },
+                {
+                    label: 'Updates',
+                    data: y6,
+                    stack: 1,
+                    borderColor: colorsEight.c6,
+                    backgroundColor: colorsEight.c6,
+                },
+                {
+                    label: 'Product Overview',
+                    data: y7,
+                    stack: 1,
+                    borderColor: colorsEight.c7,
+                    backgroundColor: colorsEight.c7,
+                },
+                {
+                    label: 'Sales Reporting',
+                    data: y8,
+                    stack: 1,
+                    borderColor: colorsEight.c8,
+                    backgroundColor: colorsEight.c8,
+                }
+        ]
+            
+            // complex line chart with categories 
+            const ctx = document.getElementById('lineChartWeeks');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: dataSetsEight
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true
+                    }
+                }
+                }
+            }); 
+
+            // complex stacked bar chart with categories
+            const barCtx = document.getElementById('barChartWeeks');
+            new Chart(barCtx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: dataSetsEight
+                },
+                options: {
+                scales: {
+                    y: {
+                    beginAtZero: true,
+                    stacked: true
+                    }
+                }
+                }
+            }); 
+
+        });
+
         // simple column charts for beer data
         let beerData = '../json/beer stats by malt type.json';
         fetch(beerData).then(response => response.json()).then(beerData => { 
@@ -233,6 +367,54 @@
                 }
                 }
             }); 
+        });
+        // simple column charts for beer data
+        let simpleBeerData = '../json/basic beer stats.json';
+        fetch(simpleBeerData).then(response => response.json()).then(simpleBeerData => { 
+
+            let labels = simpleBeerData.map(a => a['name']);
+            let y1 = simpleBeerData.map(a => a.abv);
+            let y2 = simpleBeerData.map(a => a.ibu);
+            let y3 = simpleBeerData.map(a => a.srm);
+
+            let simpleBeerStats = [
+                {
+                    label: 'ABV',
+                    data: y1,
+                    borderColor: colorsEight.c1,
+                    backgroundColor: colorsEight.c1,
+                },
+                {
+                    label: 'IBU',
+                    data: y2,
+                    borderColor: colorsEight.c2,
+                    backgroundColor: colorsEight.c2,
+                },
+                {
+                    label: 'SRM',
+                    data: y3,
+                    borderColor: colorsEight.c3,
+                    backgroundColor: colorsEight.c3,
+                },
+            ]
+
+            // beer multi-stats bar chart
+            const simpleBeer = document.getElementById('simpleBeer');
+            new Chart(simpleBeer, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: simpleBeerStats
+                },
+                options: {
+                    scales: {
+                        y: {
+                        beginAtZero: true,
+                        }
+                    },
+                    indexAxis: 'y',
+                }
+            });
         });
     </script>
 
