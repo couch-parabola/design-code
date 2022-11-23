@@ -107,3 +107,7 @@ body {
     max-height: 600px;
     overflow: scroll;
 }
+
+img {
+    width: 20%
+}
